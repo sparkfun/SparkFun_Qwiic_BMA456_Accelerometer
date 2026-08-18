@@ -1,6 +1,6 @@
 # SparkFun Triple Axis Accelerometer Breakout - BMA456 (Qwiic)
 
-[![SparkFun Triple Axis Accelerometer Breakout - BMA456](Documents/images/BMA456.png)](https://www.sparkfun.com/products/XXXXX)
+[![SparkFun Triple Axis Accelerometer Breakout - BMA456](Documentation/images/BMA456.png)](https://www.sparkfun.com/products/XXXXX)
 
 The SparkFun Triple Axis Accelerometer Breakout - BMA456 is a compact, plug-and-play motion sensing board built around the Bosch Sensortec BMA456, a 16-bit digital triaxial accelerometer with an on-chip feature engine for motion-triggered interrupts. Connect via the Qwiic connector or the PTH header and start reading acceleration over I2C in minutes, no external components required.
 
