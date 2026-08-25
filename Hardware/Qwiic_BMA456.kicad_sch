@@ -12,360 +12,6 @@
 		(comment 1 "Designed by: Geoff McIntyre")
 	)
 	(lib_symbols
-		(symbol "Qwiic_KX13X-eagle-import:KX13X-KX134"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -12.7 10.668 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "KX134"
-				(at -12.7 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Qwiic_KX13X:KX13X"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Kionix KX134 Tri-Axis Accelerometer\n\nThe KX134-1211 is a tri-axis ±8g, ±16g, ±32g, or ±64g silicon micromachined accelerometer featuring a user-configurable 3-stage Advanced Data Path (ADP) consisting of a low-pass filter, low-pass/high-pass filter, and RMS calculation engine. The KX134-1211 accelerometer also features an advanced Wake-Up and Back-to-Sleep detection with a high-resolution threshold capability configurable down to 15.6 mg, 512-byte buffer that continues to record data even when being read, as well as embedded engines for orientation, Directional-TapTM/DoubleTapTM, and Free fall detection."
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PROD_ID" "IC-15486"
-				(at 0 -11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "KX13X-KX134_1_0"
-				(polyline
-					(pts
-						(xy -12.7 10.16) (xy 12.7 10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -12.7 -7.62) (xy -12.7 10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 10.16) (xy 12.7 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -7.62) (xy -12.7 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 2.54 0)
-					(length 2.54)
-					(name "SDO"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -3.81 0)
-					(length 2.54)
-					(name "SDX"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 12.7 270)
-					(length 2.54)
-					(hide yes)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 2.54)
-					(name "ASDA"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 7.62 180)
-					(length 2.54)
-					(name "INT1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 5.08 180)
-					(length 2.54)
-					(name "INT2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 7.62 0)
-					(length 2.54)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -5.08 180)
-					(length 2.54)
-					(name "ASCL"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -1.27 0)
-					(length 2.54)
-					(name "SCX"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SparkFun-Aesthetic:Fiducial_0.5mm"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4189,6 +3835,313 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SparkFun-Sensor:BMA456"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U1"
+				(at -12.7 10.668 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "BMA456"
+				(at -12.7 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SparkFun-Semiconductor-Standard:LGA-12_2x2mm"
+				(at -0.254 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bma400-ds000.pdf"
+				(at 0.762 -19.304 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Bosch Tri-Axis Accelerometer"
+				(at 0.762 -17.272 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PROD_ID" "IC-29229"
+				(at 0 -13.208 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BMA456_1_0"
+				(pin bidirectional line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "SDX"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 12.7 270)
+					(length 2.54)
+					(hide yes)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "ASDA"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 2.54)
+					(name "INT1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "INT2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "ASCL"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "SCX"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BMA456_1_1"
+				(rectangle
+					(start -12.7 10.16)
+					(end 12.7 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "VALUE"
 		(exclude_from_sim no)
@@ -4336,6 +4289,17 @@
 			(justify left bottom)
 		)
 		(uuid "d70d64c6-9afb-4371-96ab-5566aab30dcf")
+	)
+	(text "To enable SPI, cut both I²C and ADDR"
+		(exclude_from_sim no)
+		(at 143.51 84.582 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 132 1)
+			)
+		)
+		(uuid "e887f86c-c220-4f7c-ba77-d5db50be6ff8")
 	)
 	(text "BMA456 Accelerometer"
 		(exclude_from_sim no)
@@ -4778,6 +4742,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 85.09) (xy 170.18 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b72aa5-db24-4ccf-87a6-785a7a0b1483")
+	)
+	(wire
+		(pts
 			(xy 120.65 161.29) (xy 118.11 161.29)
 		)
 		(stroke
@@ -4848,16 +4822,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 68.58) (xy 170.18 71.12)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b3649392-8e36-41c8-9d3d-26319ebc8662")
-	)
-	(wire
-		(pts
 			(xy 64.77 190.5) (xy 62.23 190.5)
 		)
 		(stroke
@@ -4888,13 +4852,23 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 62.23) (xy 170.18 63.5)
+			(xy 170.18 62.23) (xy 170.18 71.12)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "bc6fdaba-8ba2-44bd-8be0-c6dc0f3642d5")
+	)
+	(wire
+		(pts
+			(xy 170.18 80.01) (xy 170.18 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce82ee6-069a-43e3-86fb-1d851dc9de78")
 	)
 	(wire
 		(pts
@@ -4982,7 +4956,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 82.55) (xy 184.15 82.55)
+			(xy 182.88 83.82) (xy 184.15 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5002,7 +4976,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 80.01) (xy 184.15 80.01)
+			(xy 182.88 81.28) (xy 184.15 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5042,7 +5016,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 81.28) (xy 170.18 83.82)
+			(xy 170.18 87.63) (xy 170.18 90.17)
 		)
 		(stroke
 			(width 0.1524)
@@ -5069,16 +5043,6 @@
 			(type solid)
 		)
 		(uuid "eee40d00-0853-485c-9ef9-cb76f6b95c11")
-	)
-	(wire
-		(pts
-			(xy 170.18 78.74) (xy 170.18 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa41f9ae-1703-4f5d-a9de-2184ce1b45cc")
 	)
 	(wire
 		(pts
@@ -5314,7 +5278,7 @@
 	)
 	(global_label "SCX"
 		(shape input)
-		(at 182.88 80.01 180)
+		(at 182.88 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5324,7 +5288,7 @@
 		)
 		(uuid "4163ec60-abc3-42c6-84d2-95ec5926fe51")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.2058 80.01 0)
+			(at 176.2058 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5530,7 +5494,7 @@
 	)
 	(global_label "SDX"
 		(shape input)
-		(at 182.88 82.55 180)
+		(at 182.88 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5540,7 +5504,7 @@
 		)
 		(uuid "e53c4a6f-150e-4fdb-bb97-a9f2ddfb0c71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.2058 82.55 0)
+			(at 176.2058 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5670,7 +5634,7 @@
 			(uuid "8b19f845-0591-4213-bb60-31e4d6ce3e60")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "#PWR06")
 					(unit 1)
@@ -5745,7 +5709,7 @@
 			)
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "FID3")
 					(unit 1)
@@ -5822,7 +5786,7 @@
 			(uuid "cf70ba59-f686-4f7a-8bfa-f05271d1a7a6")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "#PWR016")
 					(unit 1)
@@ -5900,7 +5864,7 @@
 			(uuid "b5775ad0-82f7-4d7e-b468-147258ae5893")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "#PWR03")
 					(unit 1)
@@ -5910,7 +5874,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 170.18 83.82 0)
+		(at 170.18 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5920,7 +5884,7 @@
 		(dnp no)
 		(uuid "16c83091-3101-4fb0-acd3-7036153c99c8")
 		(property "Reference" "#PWR07"
-			(at 170.18 90.17 0)
+			(at 170.18 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5931,7 +5895,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 87.63 0)
+			(at 170.18 93.98 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -5941,7 +5905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 83.82 0)
+			(at 170.18 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5952,7 +5916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 83.82 0)
+			(at 170.18 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5963,7 +5927,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 92.71 0)
+			(at 170.18 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5977,7 +5941,7 @@
 			(uuid "2755b430-2cc9-4143-834d-a8cba41e6bca")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "#PWR07")
 					(unit 1)
@@ -6052,7 +6016,7 @@
 			)
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "FID1")
 					(unit 1)
@@ -6164,7 +6128,7 @@
 			(uuid "58b50d92-b02d-4351-aa27-b9e02960ab8d")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "C1")
 					(unit 1)
@@ -6239,7 +6203,7 @@
 			)
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "FID4")
 					(unit 1)
@@ -6330,7 +6294,7 @@
 			(uuid "4af6a693-5e44-4853-aa02-d80e2af0bfc9")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "R1")
 					(unit 1)
@@ -6405,7 +6369,7 @@
 			)
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "ST8")
 					(unit 1)
@@ -6481,7 +6445,7 @@
 			)
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "G3")
 					(unit 1)
@@ -6571,7 +6535,7 @@
 			(uuid "d287a2df-451e-4737-9b07-440350f2c321")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "D1")
 					(unit 1)
@@ -6648,7 +6612,7 @@
 			(uuid "76ae7186-5f59-4a29-8580-0be4675f2a4e")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "#PWR011")
 					(unit 1)
@@ -6726,7 +6690,7 @@
 			(uuid "0f6a67d9-bfc1-4b64-8819-0189618058cc")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "#PWR015")
 					(unit 1)
@@ -6813,7 +6777,7 @@
 			(uuid "626b0719-78dc-4192-8481-80f812d74972")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "J1")
 					(unit 1)
@@ -6904,7 +6868,7 @@
 			(uuid "219c0d6e-8f57-4e71-a054-39b7eecbd56b")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "R2")
 					(unit 1)
@@ -6994,7 +6958,7 @@
 			(uuid "e70719a8-d6da-488d-9352-0c345cc9f71b")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "R3")
 					(unit 1)
@@ -7074,7 +7038,7 @@
 			(uuid "c0b67582-4844-4d8a-8e2d-8a2fbc81c2ac")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "J0")
 					(unit 1)
@@ -7151,7 +7115,7 @@
 			(uuid "5d885746-0a07-446b-8fb1-fcf8bc869b08")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "#PWR018")
 					(unit 1)
@@ -7234,7 +7198,7 @@
 			(uuid "5aaf12e3-f7f8-4b37-a369-b0e38d6b4f0b")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "J6")
 					(unit 1)
@@ -7310,7 +7274,7 @@
 			)
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "G2")
 					(unit 1)
@@ -7388,7 +7352,7 @@
 			(uuid "5729605d-8134-4a8f-9cd9-4fe2916e3ee3")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "#PWR04")
 					(unit 1)
@@ -7398,7 +7362,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:4.7k_0603")
-		(at 170.18 66.04 90)
+		(at 170.18 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7408,7 +7372,7 @@
 		(dnp no)
 		(uuid "8aa6e1b1-3181-4c1d-b3c3-052543c9de48")
 		(property "Reference" "R4"
-			(at 168.656 66.04 0)
+			(at 168.656 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7419,7 +7383,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 172.466 66.04 0)
+			(at 172.466 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7429,7 +7393,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
-			(at 174.498 66.04 0)
+			(at 174.498 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7440,7 +7404,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 179.07 66.04 0)
+			(at 179.07 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7451,7 +7415,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 181.61 66.04 0)
+			(at 181.61 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7462,7 +7426,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-07857"
-			(at 176.784 66.04 0)
+			(at 176.784 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7479,7 +7443,7 @@
 			(uuid "1b37d0c5-c695-40e2-bbc4-0beffddcfc55")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "R4")
 					(unit 1)
@@ -7562,7 +7526,7 @@
 			(uuid "b5d4ef30-2f85-43f2-8a17-a46daa350978")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "J3")
 					(unit 1)
@@ -7640,7 +7604,7 @@
 			(uuid "6591e0dd-51e7-4a0b-a08e-3621e80d3978")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "#PWR05")
 					(unit 1)
@@ -7717,7 +7681,7 @@
 			(uuid "50f7d5dc-99e2-4b7b-929d-40dfa614e243")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "#PWR09")
 					(unit 1)
@@ -7819,7 +7783,7 @@
 			(uuid "88e622d1-408c-4524-a567-2da48e9f977b")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "J2")
 					(unit 1)
@@ -7897,7 +7861,7 @@
 			(uuid "8a87ecbd-2992-45d5-b23c-67d81305e43d")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "#PWR013")
 					(unit 1)
@@ -7975,7 +7939,7 @@
 			(uuid "0219c472-e2b9-46c0-92b1-1fa5a2534e2b")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "#PWR01")
 					(unit 1)
@@ -8050,7 +8014,7 @@
 			)
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "FID2")
 					(unit 1)
@@ -8142,7 +8106,7 @@
 			(uuid "3b0dddc4-d17a-406e-9d05-a27d5b550d14")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "J5")
 					(unit 1)
@@ -8220,7 +8184,7 @@
 			(uuid "113180d5-1763-442b-97f7-7ba7552932fc")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "#PWR010")
 					(unit 1)
@@ -8332,7 +8296,7 @@
 			(uuid "2aded703-272f-4f62-a6b2-fbb5b0d287b7")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "C4")
 					(unit 1)
@@ -8341,7 +8305,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Qwiic_KX13X-eagle-import:KX13X-KX134")
+		(lib_id "SparkFun-Sensor:BMA456")
 		(at 199.39 78.74 0)
 		(unit 1)
 		(body_style 1)
@@ -8352,7 +8316,7 @@
 		(dnp no)
 		(uuid "af591298-ca47-4c1c-8af7-6665a360e8de")
 		(property "Reference" "U1"
-			(at 186.69 68.072 0)
+			(at 186.69 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8362,8 +8326,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "KX134"
-			(at 186.69 88.9 0)
+		(property "Value" "BMA456"
+			(at 186.69 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8374,7 +8338,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Semiconductor-Standard:LGA-12_2x2mm"
-			(at 199.39 78.74 0)
+			(at 200.914 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8384,8 +8348,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 199.39 78.74 0)
+		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bma400-ds000.pdf"
+			(at 201.93 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8395,8 +8359,8 @@
 				)
 			)
 		)
-		(property "Description" "Kionix KX134 Tri-Axis Accelerometer\n\nThe KX134-1211 is a tri-axis ±8g, ±16g, ±32g, or ±64g silicon micromachined accelerometer featuring a user-configurable 3-stage Advanced Data Path (ADP) consisting of a low-pass filter, low-pass/high-pass filter, and RMS calculation engine. The KX134-1211 accelerometer also features an advanced Wake-Up and Back-to-Sleep detection with a high-resolution threshold capability configurable down to 15.6 mg, 512-byte buffer that continues to record data even when being read, as well as embedded engines for orientation, Directional-TapTM/DoubleTapTM, and Free fall detection."
-			(at 199.39 78.74 0)
+		(property "Description" "Bosch Tri-Axis Accelerometer"
+			(at 198.628 101.854 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8406,8 +8370,8 @@
 				)
 			)
 		)
-		(property "PROD_ID" "IC-15486"
-			(at 199.39 91.948 0)
+		(property "PROD_ID" "IC-29229"
+			(at 199.39 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8454,7 +8418,7 @@
 			(uuid "e596553c-ac00-450d-ba20-ea3a123d80c2")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "U1")
 					(unit 1)
@@ -8531,7 +8495,7 @@
 			(uuid "ded60071-9d9d-4e88-876c-66f9ac531b77")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "#PWR02")
 					(unit 1)
@@ -8606,7 +8570,7 @@
 			)
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "ST7")
 					(unit 1)
@@ -8684,7 +8648,7 @@
 			(uuid "aa4587fc-7781-482a-a7bc-d746cc04ab06")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "#PWR014")
 					(unit 1)
@@ -8786,7 +8750,7 @@
 			(uuid "b843993c-38c3-46d8-b3c4-486424bf0a1f")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "J4")
 					(unit 1)
@@ -8862,7 +8826,7 @@
 			)
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "G1")
 					(unit 1)
@@ -8937,7 +8901,7 @@
 			)
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "ST3")
 					(unit 1)
@@ -9028,7 +8992,7 @@
 			(uuid "f785b39c-bcb4-47a1-8f89-c151d73e1eba")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "R7")
 					(unit 1)
@@ -9105,7 +9069,7 @@
 			(uuid "12c720a3-a49d-4f46-91dc-352b9f476e7c")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "#PWR08")
 					(unit 1)
@@ -9182,7 +9146,7 @@
 			(uuid "6ac5cbce-b58a-4c34-8681-a27ae4760a37")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "#PWR017")
 					(unit 1)
@@ -9257,7 +9221,7 @@
 			)
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "ST4")
 					(unit 1)
@@ -9335,7 +9299,7 @@
 			(uuid "4a8aeaaf-b1be-433e-80f5-5f8552baf3da")
 		)
 		(instances
-			(project "Qwiic_KX13X"
+			(project "Qwiic_BMA456"
 				(path "/d72b9f41-1c27-4884-b64b-5fd6c4f8dc53"
 					(reference "#PWR012")
 					(unit 1)
