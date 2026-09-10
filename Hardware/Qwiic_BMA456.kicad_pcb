@@ -10596,7 +10596,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.25 in"
+		(gr_text "250 mils"
 			(at 144.145 99.695 0)
 			(layer "Dwgs.User")
 			(uuid "2c6a7eec-30c7-4bf0-bd81-440b7a7a0303")
@@ -10635,7 +10635,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1 in"
+		(gr_text "1000 mils"
 			(at 128.3876 81.915 90)
 			(layer "Dwgs.User")
 			(uuid "3400c72e-443d-4c22-8046-dc3c4e055991")
@@ -10673,7 +10673,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.9 in"
+		(gr_text "900 mils"
 			(at 149.86 100.4476 0)
 			(layer "Dwgs.User")
 			(uuid "42b4f427-f186-4550-aa39-d7ff2d57b7c0")
@@ -10710,7 +10710,7 @@
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 		)
-		(gr_text "0.5 in"
+		(gr_text "500 mils"
 			(at 132.8326 88.265 90)
 			(layer "Dwgs.User")
 			(uuid "46497713-31a1-4522-babd-a98dea43ecc0")
@@ -10748,7 +10748,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.9 in"
+		(gr_text "900 mils"
 			(at 130.6101 83.185 90)
 			(layer "Dwgs.User")
 			(uuid "9a28dabe-365f-4278-8bf8-49bb63d2a360")
@@ -10785,7 +10785,7 @@
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 		)
-		(gr_text "0.1 in"
+		(gr_text "100 mils"
 			(at 147.6375 97.79 0)
 			(layer "Dwgs.User")
 			(uuid "b8534566-f91a-4e67-a7d6-e1bdc66d4461")
@@ -10824,7 +10824,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.1 in"
+		(gr_text "100 mils"
 			(at 136.8425 91.7575 90)
 			(layer "Dwgs.User")
 			(uuid "cd9669c6-7e38-4b4e-acf0-57e61d5715b4")
@@ -10863,7 +10863,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1 in"
+		(gr_text "1000 mils"
 			(at 151.13 102.9876 0)
 			(layer "Dwgs.User")
 			(uuid "e5c69671-8533-459f-ad7d-2d6a0bcc5105")
