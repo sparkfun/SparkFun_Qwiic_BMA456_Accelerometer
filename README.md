@@ -1,8 +1,10 @@
-# SparkFun Triple Axis Accelerometer Breakout - BMA456 (Qwiic)
 
-[![SparkFun Triple Axis Accelerometer Breakout - BMA456](Documentation/images/BMA456.png)](https://www.sparkfun.com/products/XXXXX)
 
-The SparkFun Triple Axis Accelerometer Breakout - BMA456 is a compact, plug-and-play motion sensing board built around the Bosch Sensortec BMA456, a 16-bit digital triaxial accelerometer with an on-chip feature engine for motion-triggered interrupts. Connect via the Qwiic connector or the PTH header and start reading acceleration over I2C in minutes, no external components required.
+[![SparkFun Triple Axis Accelerometer Breakout - BMA456](docs/img/QwiicIBMA456-GHBanner.png)](https://www.sparkfun.com/sparkfun-triple-axis-accelerometer-breakout-bma456-qwiic.html)
+
+---------------------------------------------------------
+
+The [SparkFun Triple Axis Accelerometer Breakout - BMA456 (Qwiic)](https://www.sparkfun.com/sparkfun-triple-axis-accelerometer-breakout-bma456-qwiic.html) is a compact, plug-and-play motion sensing board built around the Bosch Sensortec BMA456, a 16-bit digital triaxial accelerometer with an on-chip feature engine for motion-triggered interrupts. Connect via the Qwiic connector or the PTH header and start reading acceleration over I2C in minutes, no external components required.
 
 The BMA456 offers user-selectable measurement ranges of ±2g, ±4g, ±8g, and ±16g, low-pass filter bandwidths from 684Hz down to under 8Hz, and output data readout up to 1.6kHz. A 1kb on-chip FIFO buffers samples so your microcontroller does not have to poll continuously, and two configurable interrupt pins (INT1 and INT2) let the sensor wake your system only when something actually happens. The on-chip feature engine handles motion-triggered events in hardware, including any-motion and no-motion detection, single and double tap, tilt, orientation, and step counting, freeing your processor to sleep the rest of the time.
 
@@ -33,12 +35,12 @@ Designed for our [Qwiic ecosystem](https://www.sparkfun.com/qwiic), this 1" × 1
 
 ## Documentation
 
-* **[Library](https://github.com/sparkfun/SparkFun_BMA456_Arduino_Library)** - Arduino library for the SparkFun Triple Axis Accelerometer Breakout - BMA456.
-* **[Hookup Guide](https://docs.sparkfun.com/SparkFun_Triple_Axis_Accelerometer_Breakout_BMA456/)** - Basic hookup guide for the SparkFun Triple Axis Accelerometer Breakout - BMA456.
+* **[Library](https://github.com/sparkfun/SparkFun_BMA456_Arduino_Library)** - Arduino library for the SparkFun Triple Axis Accelerometer Breakout - BMA456 (Qwiic).
+* **[Hookup Guide](https://docs.sparkfun.com/SparkFun_Triple_Axis_Accelerometer_Breakout_BMA456/)** - Basic hookup guide for the SparkFun Triple Axis Accelerometer Breakout - BMA456 (Qwiic).
 
 ## Product Versions
 
-* **[SEN-XXXXX](https://www.sparkfun.com/products/XXXXX)** - Initial release of the SparkFun Triple Axis Accelerometer Breakout - BMA456.
+* **[SEN-32097](https://www.sparkfun.com/sparkfun-triple-axis-accelerometer-breakout-bma456-qwiic.html)** - Initial release of the SparkFun Triple Axis Accelerometer Breakout - BMA456 (Qwiic).
 
 ## License Information
 
