@@ -26,7 +26,7 @@ The sole LED on the board is a red power status LED to indicate when the board h
 
 ## Solder Jumpers
 
-This Qwiic breakout has three solder jumpers labeled <b>LED</b>, <b>ADDR</b> and <b>I</sup>2</sup>C</b>. The list below outlines their functionality, default states and any notes on their uses.
+This Qwiic breakout has three solder jumpers labeled <b>LED</b>, <b>ADDR</b> and <b>I<sup>2</sup>C</b>. The list below outlines their functionality, default states and any notes on their uses.
 
 * **LED** - The LED jumper completes the power LED circuit and is CLOSED by default. Open this jumper to disable the power LED.
 * **ADDR** - The ADDR jumper sets the I<sup>2</sup>C address or enables SPI by controlling the state of the SDO pin. This three-way jumper pulls the SDO LOW by default and sets the I<sup>2</sup>C address to **0x18**. Switch the jumper to the 3.3V side to change the address to **0x19**. Open the jumper completely to free up the SDO pin for SPI communication.
