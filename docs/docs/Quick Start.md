@@ -22,4 +22,4 @@ Since this is a Qwiic breakout, assembly is simple:
 
 The code initializes the sensor and prints out acceleration data from all three axes along with the BMA456's internal temperature. Try moving the sensor around to see the values change. It can be hard to get a good grasp of what is happening with just raw numbers streaming by every 100ms but thankfully Arduino's serial plotter prints out a nice graphical visualization of the values changing:
 
-[Screenshot of serial plotter for Example 1](/img/BMA456_Ex1.png)
+![Screenshot of serial plotter for Example 1](/img/BMA456_Ex1.png)

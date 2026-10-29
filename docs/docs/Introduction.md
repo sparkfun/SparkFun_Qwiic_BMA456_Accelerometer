@@ -4,7 +4,7 @@ slug: /
 
 # Introduction
 
-[Hookup Guide Banner Image](/img/QwiicIBMA456-HGBanner.png)
+![Hookup Guide Banner Image](/img/QwiicBMA456-HGBanner.png)
 
 The SparkFun Triple Axis Accelerometer Breakout - BMA456 (Qwiic) offers a 3-axis acceleration sensor perfect for ultra-low-power applications on an easy-to-use Qwiic breakout board. The BMA456 has 16-bit digital resolution and features an embedded intelligence engine that measures motion on all three axes with very low noise to detect steps (both detection and counting), activity, tilt on wrist and tap/double taps all while consuming very little power.
 
